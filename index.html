@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,23 +8,32 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="form">
-        <div class="type">
-            <label for="name">気温:</label>
-            <input type="text" id="name" name="name" requiredminlength="4" maxlength="8" size="10">
-            <label for="name">℃</label>
-            <label for="name">気温:</label>
-            <input type="text" id="name" name="name" requiredminlength="4" maxlength="8" size="10">
-            <label for="name">℃</label>
-            <label for="name">気温:</label>
-            <input type="text" id="name" name="name" requiredminlength="4" maxlength="8" size="10">
-            <label for="name">℃</label>
+    <section>
+        <!-- ヘッダー部分 -->
+
+    </section>
+    <section> 
+        <!-- 入力部分  -->
+        <div class="form">
+            <div class="type">
+                <label for="temp_label">気温:</label>
+                <input type="text" id="temp_var" name="temp" requiredminlength="4" maxlength="8" size="10">
+                <label for="temp_logo">℃</label>
+    
+                <label for="hum_label">湿度:</label>
+                <input type="text" id="hum_var" name="hum" requiredminlength="4" maxlength="8" size="10">
+                <label for="hum_logo">%</label>
+    
+                <label for="weather_label">天気:</label>
+                <input type="text" id="weather_var" name="weather" requiredminlength="4" maxlength="8" size="10">
+            </div>
+            <div id="button">
+                <button>保存</button>
+                <button>一覧を表示</button>
+            </div>
         </div>
-        <div id="button">
-            <button>保存</button>
-            <button>一覧を表示</button>
-        </div>
-    </div>
+    </section>
+
 
 
 </body>
